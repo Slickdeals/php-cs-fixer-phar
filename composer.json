@@ -1,0 +1,16 @@
+{
+    "name": "slickdeals/php-cs-fixer-phar",
+    "description": "Composer based php-cs-fixer phar",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+		"php": "^7.1 || ^8.0"
+	},
+	"conflict": {
+		"friendsofphp/php-cs-fixer" : "*"
+	},
+    "bin": ["php-cs-fixer"],
+    "config": {
+        "platform-check": true
+    }
+}
